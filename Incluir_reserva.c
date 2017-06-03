@@ -58,6 +58,7 @@ int incluir_reserva()
                             conj[i][j].cpf=cpfn;
                             printf("Número voo: %d\n",conj[i][j].numeroVoo);
                             printf("CPF: %d\n",conj[i][j].cpf);
+                            conj[i][j].a=1;
                             return 4;
                         }
                     }
